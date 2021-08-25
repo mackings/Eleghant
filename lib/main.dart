@@ -19,7 +19,7 @@ void main() async {
 
   var firstObject = ParseObject('FirstClass')
     ..set(
-        'message', 'Hey ! First message from Flutter. Parse is now connected');
+        'message', 'Hey ! Macs First message from Flutter. Parse is now connected');
   await firstObject.save();
 
   print('done');
